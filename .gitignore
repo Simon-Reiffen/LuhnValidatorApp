@@ -3,3 +3,7 @@
 
 # Ignore assets
 /assets/*
+
+# Ignore wintson logs
+combined.log
+error.log

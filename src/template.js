@@ -1,6 +1,6 @@
 // html skeleton provider
 export default function template(title, content = "") {
-  let page = `<!DOCTYPE html>
+  return `<!DOCTYPE html>
               <html lang="en">
               <head>
                 <meta charset="utf-8">
@@ -17,6 +17,4 @@ export default function template(title, content = "") {
                 <script src="assets/bundle.js"> </script> 
               </body>
               `;
-
-  return page;
 }

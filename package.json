@@ -11,9 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "imports": {
-    "#root/*.js": "./*.js"
-  },
   "dependencies": {
     "@babel/register": "^7.8.6",
     "babel-plugin-css-modules-transform": "^1.6.2",

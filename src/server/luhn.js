@@ -3,7 +3,6 @@ const logger = require("../../logger");
 
 function isValidLuhn(number) {
     // Stringifiying the number makes it easier to work with
-
     try {
         const numStr = number.toString();
 
